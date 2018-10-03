@@ -12,11 +12,11 @@
 			WHERE length(m_content)>0
 	</Query>
     <Fragments>
-      <Fragment source="type" alias="Direction" datatype="String" category="None" />
-      <Fragment source="name" alias="Contact Name" datatype="Text" category="None" />
       <Fragment source="date" alias="Date/Time - UTC (yyyy-MM-dd)" datatype="DateTime" category="DateTime" dateformat="UNIX Time (ms)" />
-      <Fragment source="m_content" alias="Message" datatype="String" category="Content" />
+	  <Fragment source="type" alias="Message Direction" datatype="String" category="None" />
+      <Fragment source="name" alias="Display Name" datatype="Text" category="None" />
       <Fragment source="number" alias="Phone Number" datatype="String" category="None" />
+      <Fragment source="m_content" alias="Body" datatype="String" category="Content" />
     </Fragments>
   </Artifact>
   <Signature>1:G9pMM1Dv4LdGnnZujc/+BA==:AgD/////:AmUx/dWslmMCx0cMU7iX+ZsQf+F2wd8q+Ro7KMdH6R3gf7EF5c8zPIcY9euo+/v4hU9ZBdXAVpSHzmTxulrypGwNtsrPhhZgpRLA07baDHQ+S7dojqQ3TkMHbiWL0eHtLPULUq8VD6niKRpINhwez/qMT2XZQfTbMUMKKIInl+7KhKMk7VxKjBgsGnJ9EgsRgO+NK1QoEF5Yba0BBjmymdR9u4x4ac1caQxPA7Zzz46vRe2yV1h3WnmbYAa7b5BUQa2Mwj2Wa0zpHPIhnQuZdsYVURRAOleRX/uDLNU2hQZzCGA3Q728VIKvON5NuZlp898eQKswCyUBKq+o42dl5A==</Signature>
